@@ -19,12 +19,7 @@ function countCats( matrix ) {
   matrix.flat().forEach((item, i ) => {
     item == '^^' ? count++ : false;
   })
-  return count;
-
-
-
-
-  
+  return count;  
 }
 
 module.exports = {
