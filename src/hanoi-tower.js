@@ -9,7 +9,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * @return {Object} object with props turns (number of turns)
  * and seconds (time in seconds)
  *
- * @example
+ * @examplegit 
  * 
  * calculateHanoi(9, 4308) => { turns: 511, seconds: 427 }
  *
